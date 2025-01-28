@@ -11326,9 +11326,10 @@ h5,
   height: 300px;
 }
 .staff .img {
+  border-radius: 10px;
   width: 100%;
   display: block;
-  background-position: top center;
+  /* background-position: top center; */
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -11336,6 +11337,7 @@ h5,
   transition: all 0.3s ease;
 }
 .staff .text {
+   border-radius: 10px;
   position: relative;
   background: #fff;
   -moz-transition: all 0.3s ease;
@@ -13022,4 +13024,15 @@ textarea.form-control {
 .subs:hover {
   background-color: orange; /* Change background color to orange */
   transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+
+
+.book-btn{
+  background: linear-gradient(90deg, #ffa63e, #ff7b00);
+  border: none;
+  border-radius: 20px;
+  padding: 5px 8px;
+  color: white;
+  cursor: pointer;
 }
